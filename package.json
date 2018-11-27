@@ -1,0 +1,22 @@
+{
+  "name": "to-postgres",
+  "version": "1.0.0",
+  "description": "Access postgreSQL using TypeORM",
+  "author": "Puthnith Var <puthnith@gmail.com>",
+  "keywords": [
+    "PostgeSQL",
+    "TypeORM",
+    "TypeScript"
+  ],
+  "liscense": "MIT",
+  "repository": "github:puthnith/ToPostgres",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10",
+    "typescript": "^3.1.6"
+  }
+}

@@ -1,0 +1,4 @@
+.vscode
+.npmrc
+build
+node_modules
