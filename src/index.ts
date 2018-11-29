@@ -9,7 +9,13 @@ app(async connection => {
 
   const product = repo.create({
     id: uuid(),
-    name: 'Apple',
+    name: 'DJI Osmo Pocket',
+    short: '3-Axis Stabilized Handheld Camera',
+    description:
+      `As the smallest 3-axis stabilized handheld` +
+      `camera DJI has ever designed, the compact and intelligent` +
+      `Osmo Pocket turns any moment into a cinematic memory.`,
+    price: 359,
   });
 
   await repo.save(product).then(console.log);
